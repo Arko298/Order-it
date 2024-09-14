@@ -1,4 +1,16 @@
+//For now the readme file is updated.
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
+Order-it is an e-commerce website.
+
+## Dependencies used
+- `next`: The React-based framework for building server-side rendered and statically generated websites and applications.
+- `react`: A JavaScript library for building user interfaces.
+- `react-dom`: A package for rendering React components to the DOM.
+- `Node.js`
+- `Express.js`
+- `Oauth`
+
 
 ## Getting Started
 
@@ -22,12 +34,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
