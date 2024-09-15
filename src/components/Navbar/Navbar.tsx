@@ -13,7 +13,7 @@ export default function Navbar(){
       <div className="container mx-auto">
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
-            <a href="/home" className="block w-full py-5">
+            <a href="/" className="block w-full py-5">
               <img
                 src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
                 alt="logo"
@@ -51,7 +51,7 @@ export default function Navbar(){
                 <ul className="block lg:flex">
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="flex py-2 text-base font-medium text-body-color hover:text-dark lg:ml-12 lg:inline-flex dark:text-dark-6 dark:hover:text-white"
                     >
                       Home
@@ -78,7 +78,7 @@ export default function Navbar(){
             </div>
             <div className="hidden justify-end pr-16 sm:flex lg:pr-0">
               <a
-                href="/login"
+                href="/sign-in"
                 className="px-7 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
               >
                 Login
