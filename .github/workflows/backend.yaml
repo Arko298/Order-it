@@ -3,35 +3,4 @@ name: Backend CI/CD
 on:
   push:
     branches: [main]
-jobs:
-  build-and-deploy:
-  runs-on: ubuntu-latest
-stages:
-  - build
-  - test
-  - deploy
 
-build:
-  stage: build
-  script:
-    - npm install
-    - npm run build
-  artifacts:
-    paths:
-      - dist/
-
-test:
-  stage: test
-  script:
-    - npm run test
-  artifacts:
-    reports:
-      junit: junit.xml
-
-deploy:
-  stage: deploy
-  script:
-    - npm run deploy
-  environment:
-    name: production
-    url:
